@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base URL untuk backend
-const API_BASE_URL = 'https://caffinity-back-end.vercel.app/';
+const API_BASE_URL = 'https://caffinity-back-end.vercel.app/api';
 
 // Buat instance axios
 const api = axios.create({
