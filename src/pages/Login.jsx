@@ -80,7 +80,7 @@ const Login = () => {
     if (!isLoginMode) {
       // Register mode: call backend
       try {
-        const res = await fetch('https://caffinity-be.vercel.app/api/auth/register', {
+        const res = await fetch('https://caffinity-back-end.vercel.app/api/auth/register', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
