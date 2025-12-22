@@ -10,10 +10,10 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
 
-  const API_BASE_URL = window.location.hostname === 'localhost' 
+  // AuthContext.jsx
+const API_BASE_URL = window.location.hostname === 'localhost' 
     ? 'http://localhost:5000' 
-    : 'https://caffinity-be.vercel.app';
-
+    : 'https://caffinity-back-end.vercel.app'; 
   useEffect(() => {
     checkSession();
   }, []);

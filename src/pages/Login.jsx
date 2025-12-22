@@ -116,7 +116,7 @@ const Login = () => {
 
     // Login mode: call backend
     try {
-      const res = await fetch('https://caffinity-be.vercel.app/api/auth/login', {
+      const res = await fetch('https://caffinity-back-end.vercel.app/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

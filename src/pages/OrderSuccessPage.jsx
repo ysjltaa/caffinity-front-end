@@ -329,7 +329,7 @@ const OrderSuccessPage = () => {
               </div>
               <div>
                 <div className="font-medium text-gray-900">Order Placed</div>
-                <div className="text-sm text-gray-500">Just now</div>
+                <div className="text-sm text-gray-500 text-left">Just now</div>
               </div>
             </div>
           </div>

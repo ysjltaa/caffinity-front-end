@@ -1,7 +1,7 @@
 // src/components/Header.jsx
 import React from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { SearchIcon, BellIcon } from './icons';
+import { SearchIcon, BellIcon } from './Icons';
 
 const Header = () => {
   const location = useLocation();
